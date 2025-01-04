@@ -10,10 +10,10 @@ export default function HeaderMainPage() {
     }
   return (
     <>
-        <header className='flex flex-wrap flex-row justify-evenly items-center mx-6 w-auto h-24 
+        <header className='flex flex-wrap flex-row justify-around items-center mx-6 w-auto h-24 
         border-b border-l border-r border-black'>
             <button className='w-40 h-14 text-white bg-red-500'> GO BACK </button>
-            <ul className='flex flex-wrap items-center text-base text-[#222222]'>
+            <ul className='flex flex-wrap mx-20  items-center text-base text-[#222222]'>
                 <li className='mr-11 font-bold hover:text-red-500   cursor-pointer'> 
                   <a href="#" onClick={(e) => handleScroll(e, 'story')}> STORY </a> 
                 </li>
