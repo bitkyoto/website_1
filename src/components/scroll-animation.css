@@ -1,0 +1,25 @@
+.anim{
+    animation: scr 10s infinite linear;
+}
+.anim2{
+    animation: scr2 7s infinite linear;
+}
+
+@keyframes scr{
+    from{
+        transform: translateX(-50%);
+    }
+    to{
+        transform: translateX(100%);
+    }
+    
+}
+@keyframes scr2{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+        transform: translateX(160%);
+    }
+    
+}
