@@ -1,10 +1,10 @@
 import React from 'react'
-import HeaderMainPage from '../components/HeaderMainPage'
+import Header from '../components/Header'
 import MainMainPage from '../components/MainMainPage'
 export default function MainPage () {
   return (
     <>
-      <HeaderMainPage/>
+      <Header/>
       <MainMainPage/>
     </>
   )

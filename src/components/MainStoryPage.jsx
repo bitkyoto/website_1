@@ -8,7 +8,7 @@ export default function MainStoryPage() {
             <p className='py-[4.9rem] text-7xl'>
                 THE STORY BEHIND <br /> THE SOUCE
             </p>
-            <img className='m-auto w-full'src= {girl} alt="" />
+            <img className='m-auto w-full pt-[1px]'src= {girl} alt="" />
         </div>
         <div className="right w-1/2 h-fit border-black">
             <img className='m-auto w-full' src={frame_filler} alt="" />
